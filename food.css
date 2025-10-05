@@ -1,0 +1,63 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h2 {
+  display: inline-block;
+  color: coral;
+}
+h1 {
+  display: inline-block;
+  font-weight: 700;
+}
+h4 {
+  display: inline-block;
+  color: coral;
+}
+.h {
+  border-left: 0.3rem solid coral;
+  padding-left: 2rem;
+  margin-left: 1rem;
+}
+img {
+  position: fixed;
+  left: 20rem;
+  top: 10rem;
+  width: 35rem;
+  height: 35rem;
+}
+.b1 {
+  margin-top: 5rem;
+  border: 0;
+  border-radius: 15rem;
+  padding: 1rem 2rem;
+  background-color: coral;
+  color: white;
+}
+.b2 {
+  border: 0.25rem solid rgb(252, 230, 215);
+  border-radius: 15rem;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: coral;
+}
+ul {
+  display: inline-block;
+  align-items: end;
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  padding: 0rem 2rem;
+}
+.hh3 {
+  margin-left: 1rem;
+  margin-top: 5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.hh32 {
+  color: coral;
+  display: block;
+}

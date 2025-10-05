@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: black;
+}
+div {
+  background-color: firebrick;
+  width: 300px;
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 150px;
+  border-radius: 15px;
+  animation-name: test;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes test {
+  frome {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+h1 {
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+  animation-name: h;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+
+@keyframes h {
+  0% {
+    colr: white;
+  }
+  10% {
+    color: yellowgreen;
+  }
+  30% {
+    color: orange;
+  }
+  50% {
+    color: firebrick;
+  }
+  70% {
+    color: peru;
+  }
+  90% {
+    color: palevioletred;
+  }
+  100% {
+    color: blueviolet;
+  }
+}

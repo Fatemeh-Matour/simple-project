@@ -1,0 +1,28 @@
+.b {
+  width: 10rem;
+  height: 10rem;
+  background-color: brown;
+  border-radius: 50rem;
+  animation: ball 1s ease-in-out infinite;
+  margin-top: 15rem;
+}
+
+@keyframes ball {
+  2% {
+    margin-top: 15rem;
+  }
+  0%,
+  100% {
+    margin-left: 40rem;
+    width: 8rem;
+  }
+  25% {
+    margin-top: 5rem;
+  }
+  50% {
+    margin-top: 15rem;
+    margin-left: 0;
+    width: 10rem;
+    background-color: blueviolet;
+  }
+}

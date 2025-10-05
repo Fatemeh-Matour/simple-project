@@ -1,0 +1,101 @@
+.d1 {
+  width: 8rem;
+  height: 16rem;
+  background-color: beige;
+  box-shadow: 0rem 0rem 2rem gray;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 10rem;
+  margin-left: 15rem;
+}
+.d2 {
+  width: 8rem;
+  height: 16rem;
+  background-color: beige;
+  box-shadow: 0rem 0rem 2rem gray;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 24rem;
+  margin-top: 10rem;
+}
+.d3 {
+  width: 6.5rem;
+  height: 7.5rem;
+  border-radius: 80%;
+  background-color: rgb(153, 88, 4);
+  box-shadow: 0rem 0rem 1rem rgb(153, 88, 4);
+  position: absolute;
+  margin-top: 4rem;
+  margin-left: 0.2rem;
+  animation: d34 2s ease-in-out infinite;
+}
+.d4 {
+  width: 6.5rem;
+  height: 7.5rem;
+  border-radius: 80%;
+  background-color: rgb(153, 88, 4);
+  box-shadow: 0rem 0rem 1rem rgb(153, 88, 4);
+  position: absolute;
+  margin-top: 4rem;
+  margin-left: 0.2rem;
+  animation: d34 2s ease-in-out infinite;
+}
+.d5 {
+  width: 4.5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 0rem 0rem 1rem black;
+  position: absolute;
+  margin-left: 0.2rem;
+  margin-top: 1rem;
+  animation: d56 2s ease-in-out infinite;
+}
+.d6 {
+  width: 4.5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 0rem 0rem 1rem black;
+  position: absolute;
+  margin-left: 0.2rem;
+  margin-top: 1rem;
+  animation: d56 2s ease-in-out infinite;
+}
+.d7 {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: cornsilk;
+  border-radius: 50rem;
+  box-shadow: 0rem 0rem 3rem cornsilk;
+  position: absolute;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  animation: d78 2s ease-in-out infinite;
+}
+.d8 {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: cornsilk;
+  border-radius: 50rem;
+  box-shadow: 0rem 0rem 3rem cornsilk;
+  position: absolute;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  animation: d78 2s ease-in-out infinite;
+}
+@keyframes d34 {
+  50% {
+    margin-left: 1.3rem;
+  }
+}
+@keyframes d56 {
+  50% {
+    margin-left: 1.8rem;
+  }
+}
+@keyframes d78 {
+  50% {
+    margin-left: 1.3rem;
+  }
+}

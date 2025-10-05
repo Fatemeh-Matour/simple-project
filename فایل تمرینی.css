@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: black;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+h2 {
+  color: white;
+  font-weight: 500;
+  margin-left: 115px;
+  font-size: 25px;
+}
+h3 {
+  color: chartreuse;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 117px;
+}
+h4 {
+  color: #6b6162;
+  font-weight: 500;
+  margin-left: 60px;
+}
+.big {
+  background-color: #11100e;
+  width: 400px;
+  height: 600px;
+  margin-top: 90px;
+  margin-left: 600px;
+  border-radius: 10px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+}
+
+.d {
+  background-color: transparent;
+  border: none;
+  background-color: #222222;
+  color: white;
+  padding: 10px 108px;
+  margin-left: 40px;
+  border-radius: 8px;
+  font-weight: 545;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 42px;
+}

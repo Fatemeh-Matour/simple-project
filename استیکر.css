@@ -1,0 +1,58 @@
+.d1 {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50rem;
+  background-color: yellow;
+  box-shadow: 0px 0px 20px 0.2rem;
+  margin-top: 12rem;
+  margin-left: 15rem;
+}
+.kh {
+  width: 10rem;
+  height: 5rem;
+  border-bottom: 0.5rem solid rgb(65, 31, 16);
+  position: absolute;
+  margin-top: 7rem;
+  margin-left: 4rem;
+
+  animation: kh2 5s 0s infinite;
+  transition: all 0s ease-in-out;
+}
+.h1 {
+  animation: h11 3s ease-in-out infinite;
+  width: 1.5rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  background-color: rgb(65, 31, 16);
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+.h2 {
+  animation: h12 3s ease-in-out infinite;
+  width: 1.5rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  background-color: rgb(65, 31, 16);
+  position: absolute;
+  margin-left: 11.5rem;
+  margin-top: 5rem;
+}
+
+@keyframes h11 {
+  50% {
+    margin-left: 3.5rem;
+    width: 4rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+@keyframes h12 {
+  50% {
+    margin-left: 10.5rem;
+    width: 4rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+  }
+}
